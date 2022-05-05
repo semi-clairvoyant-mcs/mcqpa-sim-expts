@@ -1,0 +1,12 @@
+REFERENCES
+
+[1] E. Bini and G. Buttazzo. Measuring the performance of schedulability tests. Journal of Real-Time Systems, 30(1-2):129–154, 2005.
+
+[2] P. Emberson, R. Stafford, and R. I. Davis. Techniques for the synthesis of multiprocessor tasksets. In International Workshop on
+    Analysis Tools and Methodologies for Embedded and Real-time Systems (WATERS), pages 6–11, July 2010.
+
+[3] S. Baruah, P. Ekberg. Graceful Degradation in Semi-Clairvoyant Scheduling. 33rd Euromicro Conference on Real-Time Systems (ECRTS 2021),
+    pages 9:1-9:21, July 2021.
+
+[4] F. Zhang and A. Burns, "Improvement to Quick Processor-Demand Analysis for EDF-Scheduled Real-Time Systems," 2009,
+    21st Euromicro Conference on Real-Time Systems, 2009, pp. 76-86, doi: 10.1109/ECRTS.2009.20.
