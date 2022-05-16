@@ -22,8 +22,8 @@ AN EFFICIENT SCHEDULABILITY ANALYSIS OF SEMI-CLAIRVOYANT SPORADIC TASK SYSTEMS W
    - If the second argument is 'f' --> The program accepts an input file "input.txt" containing task set parameters for all tasksets.
    - If the second argument is 't' --> The program generates the task set parameters for all tasksets.
 2. The program may thus proceed in one of the following two ways:
-	 - In case of input method 'f', the "fetch_task_parameter function" is called by the driver to read task parameters from the input file "input.txt".
-	 - In case of input method 't', "task_parameter_generator" is called by the driver to generate taskset parameters using the method described in section 5.1 of our paper.
+	 - In case of input method 'f', the "fetch_task_parameter" function is called by the driver to read task parameters from the input file "input.txt".
+	 - In case of input method 't', the "task_parameter_generator" function is called by the driver to generate taskset parameters using the method described in section 5.1 of our paper.
 3. The schedulability test is applied to the generated / fetched tasksets using both the algorithms (presented in section 4 of the paper) to determine whether it is EDF schedulable.	
 4. Based on the return values of the schedulability test functions, the final outputs are recorded.
 5. The output of the code is printed out on the terminal screen and stored as comma separated values in the file "output.csv".
